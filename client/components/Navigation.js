@@ -15,7 +15,7 @@ export default class Navigation extends Component {
           <Link to="about-container" activeClass="active" spy={true} smooth={true} className="nav-links">About</Link>
           <Link to="events-container" activeClass="active" spy={true} smooth={true} className="nav-links">Events</Link>
           <Link to="adopt-container" activeClass="active" spy={true} smooth={true} className="nav-links">Adoptable Dogs</Link>
-          <Link to="resume-container" activeClass="active" spy={true} smooth={true} className="nav-links">Resume</Link>
+          <Link to="involved-container" activeClass="active" spy={true} smooth={true} className="nav-links">Get Involved</Link>
           <Link to="contact-container" activeClass="active" spy={true} smooth={true} className="nav-links">Contact</Link>
           <Link to="donate-container" activeClass="active" spy={true} smooth={true} className="nav-links">Donate</Link>
         </nav>
