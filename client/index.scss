@@ -46,11 +46,7 @@ body {
 // Components
 #welcome-container,
 #about-container,
-#events-container,
-#adoptable-container,
-#involved-container,
-#contact-container,
-#donate-container {
+#contact-container {
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -79,27 +75,6 @@ body {
   }
   h1, h2 {
     text-align: center;
-  }
-}
-
-// Events Container
-#events-container {
-  margin-bottom: 200px;
-  h1 {
-    color: $quaternary-color;
-    font-weight: bold;
-  }
-  h2 {
-    color: $quaternary-color;
-    font-weight: lighter;
-  }
-  #my-events-container {
-    display: flex;
-    flex-direction: row;
-    .events-items {
-      display: flex;
-      margin: 20px 20px;
-    }
   }
 }
 
