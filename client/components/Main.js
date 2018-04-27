@@ -7,11 +7,7 @@ export default class Main extends Component {
       <div id="components-container">
         <Welcome />
         <About />
-        <Events />
-        <AdoptableDogs />
-        <GetInvolved />
         <Contact />
-        <Donate />
       </div>
     )
   }
