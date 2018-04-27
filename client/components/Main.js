@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Welcome, About, Events, AdoptableDogs, GetInvolved, Contact, Donate } from './'
+import { Welcome, About, Contact } from './'
 
 export default class Main extends Component {
   render() {
