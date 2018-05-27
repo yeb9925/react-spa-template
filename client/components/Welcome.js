@@ -7,8 +7,7 @@ export default class Welcome extends Component {
   render() {
     return (
       <div id="welcome-container">
-        <div id="welcome-image">Image</div>
-        <Link to="contact-container" activeClass="active" spy={true} smooth={true} id="welcome-button">Image goes here</Link>
+        <Link to="contact-container" activeClass="active" spy={true} smooth={true} id="welcome-button"><h2>Welcome</h2></Link>
       </div>
     )
   }

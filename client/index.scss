@@ -56,23 +56,15 @@ body {
 
 // Welcome Component
 #welcome-container {
-  #welcome-image {
-    font-size: 100px;
-    color: $quaternary-color;
-  }
   #welcome-button {
     text-align: center;
     font-size: 30px;
+    color: black;
   }
 }
 
 // About Component
 #about-container {
-  #about-container-1sthalf,
-  #about-container-2ndhalf {
-    height: 50%;
-    width: 100%
-  }
   h1, h2 {
     text-align: center;
   }
