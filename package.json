@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build-watch & nodemon server",
+    "start": "npm run build-watch & nodemon src/server",
     "build-watch": "webpack -w"
   },
   "keywords": [],
