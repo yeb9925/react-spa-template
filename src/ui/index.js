@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Routes from './routes';
-import './index.scss';
+import Routes from './routes'
+import './index.scss'
 
 ReactDOM.render(
   <Routes />,
