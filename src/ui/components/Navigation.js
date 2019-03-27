@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import * as Scroll from 'react-scroll';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import * as Scroll from 'react-scroll'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 export default class Navigation extends Component {
   constructor(props) {
     super(props)
   }
+  
   render() {
     return (
       <div id="nav-container">
