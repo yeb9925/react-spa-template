@@ -4,8 +4,8 @@
 ### Getting Started
 
 ```
-git clone https://github.com/yeb9925/react-spa-boilerplate.git
-cd /react-spa-boilerplate
+git clone https://github.com/yeb9925/react-spa-template.git
+cd /react-spa-template
 npm install
 npm run start
 ```
