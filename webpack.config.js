@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   entry: './src/ui',
@@ -21,9 +21,9 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          'sass-loader',
-        ],
-      },
-    ],
-  },
+          'sass-loader'
+        ]
+      }
+    ]
+  }
 }
