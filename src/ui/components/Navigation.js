@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'react-scroll'
 
 export default class Navigation extends Component {
@@ -11,9 +10,9 @@ export default class Navigation extends Component {
     return (
       <div id="nav-container">
         <nav id="nav-bar">
-          <Link to="welcome-container" activeClass="active" spy={true} smooth={true} className="nav-links">Home</Link>
-          <Link to="about-container" activeClass="active" spy={true} smooth={true} className="nav-links">About</Link>
-          <Link to="contact-container" activeClass="active" spy={true} smooth={true} className="nav-links">Contact</Link>
+          <Link to="component1-container" activeClass="active" spy={true} smooth={true} className="nav-links">Home</Link>
+          <Link to="component2-container" activeClass="active" spy={true} smooth={true} className="nav-links">About</Link>
+          <Link to="component3-container" activeClass="active" spy={true} smooth={true} className="nav-links">Contact</Link>
         </nav>
         {
           this.props.children
@@ -21,8 +20,4 @@ export default class Navigation extends Component {
       </div>
     )
   }
-}
-
-Navigation.propTypes = {
-  children: PropTypes.object
 }
