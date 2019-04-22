@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 8080
+const { PORT } = require('../../config')
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const path = require('path')
